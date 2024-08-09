@@ -1,0 +1,57 @@
+.container-register{
+    max-width: 1000px ;
+    width: 100%;
+    height: 90vh;
+    margin:0 auto;
+    background-color: aliceblue;
+    border-radius: 100px;
+    
+}
+
+.row-register{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.col-register{
+    margin:auto;
+    width: 50%;
+}
+.col-form{
+    width: 80%;
+}
+.register-img{
+    width: 90%;
+}
+
+.col-form button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+}
+.col-form h2,h4{
+    font-family:Georgia, serif;;
+
+}
+.login-label{
+    color: hsl(202, 46%, 58%);
+    text-decoration: none;
+}
+
+
+@media (max-width:800px){
+    .container-register{
+        height: 100vh;
+    }
+    .row-register{
+        flex-direction: column;
+    }
+    .register-img{
+        max-width: 400px;
+        height: 350px;
+    }
+    .col-register{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

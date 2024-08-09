@@ -1,0 +1,51 @@
+.container-main{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.row-container{
+    display: flex;
+    justify-content: space-between;
+}
+.add-button{
+    width: 15%;
+    
+}
+.row-container input{
+    width: 30%;
+}
+.card{
+    min-width: 270px;
+    width: 23%;
+    margin: 10px;
+    color: hsl(60, 8%, 26%);
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(210, 33%, 4%);
+}
+
+
+@media (max-width:750px){
+    .row-container{
+        flex-direction: column;
+    }
+    .add-button{
+        width: 100%;
+        
+    }
+    .row-container input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row{
+        margin: 0 auto;
+    }
+    .card{
+        margin: 10px auto;
+        width: 100%;
+        color: hsl(36, 100%, 90%);
+    }
+}
